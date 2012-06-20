@@ -1,0 +1,10 @@
+{
+    "jam_version": "0.1.0",
+    "dependencies": {
+        "whenever": null,
+        "couchr": null,
+        "domReady": null,
+        "handlebars": null,
+        "underscore": null
+    }
+}

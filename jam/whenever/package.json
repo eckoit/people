@@ -1,0 +1,38 @@
+{
+    "name": "whenever",
+    "version": "2.3.8-1",
+    "title": "whenever",
+    "main": "whenever.js",
+    "author": {
+        "name": "Christian Bach",
+        "url": "http://tablesorter.com/"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://www.opensource.org/licenses/mit-license.php"
+        },
+        {
+            "type": "GPL",
+            "url": "http://www.gnu.org/licenses/gpl.html"
+        }
+    ],
+    "dependencies": {
+        "jquery": ">=1.2.6"
+    },
+    "description": "A nice little library for writing and implementing web application behavior in javascript that looks like English.",
+    "keywords": [
+        "behaviour"
+    ],
+    "homepage": "https://github.com/paulca/whenever.js",
+    "maintainers": [
+        {
+            "name": "Ryan Ramage",
+            "url": "https://github.com/ryanramage"
+        },
+        {
+            "name": "Paul Campbell",
+            "url": "https://github.com/paulca"
+        }
+    ]
+}
