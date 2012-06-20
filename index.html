@@ -1,14 +1,10 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE html>
+<html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-
     <title>People</title>
   </head>
   <body>
-
-
-
     <div class="container" role="main">
         <div class="row">
             <div class="span5">
@@ -16,16 +12,15 @@
 				<span class="message"></span>
             </div>
         </div>
+		<div class="row content">
+	
+		</div>
     </div>
     <script type="text/javascript" src="jam/require.js"></script>
     <script type="text/javascript">
         require(['js/app', 'domReady', 'director', 'jquery'], function (app, domReady, director, $) {
             window.$ = $;
-
-			$('.message').text('a');
             app.init();
-
-			$('.message).text('good morning');
             domReady(function () {
                app.ui();
             });
@@ -33,7 +28,7 @@
         });
     </script>
     <script id="my-template" type="text/x-handlebars-template">
-        <h3>Looking for people...</h3>
+        <h3>Scanning people...</h3>
     </script>
   </body>
 </html>
