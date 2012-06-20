@@ -26,9 +26,29 @@ var jam = {
             "main": "underscore.js"
         },
         {
+            "name": "JSONStream",
+            "location": "jam/JSONStream",
+            "main": "index.js"
+        },
+        {
+            "name": "director",
+            "location": "jam/director",
+            "main": "director.js"
+        },
+        {
             "name": "jquery",
             "location": "jam/jquery",
             "main": "jquery.js"
+        },
+        {
+            "name": "stream",
+            "location": "jam/stream",
+            "main": "stream.js"
+        },
+        {
+            "name": "events",
+            "location": "jam/events",
+            "main": "events.js"
         }
     ],
     "version": "0.1.0"

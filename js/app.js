@@ -2,13 +2,11 @@ define('js/app',[
     'jquery',
     'handlebars',
     'couchr',
-    'JSONStream',
     'underscore'
 
 ],
-function($, handlebars, couch, JSONStream, _){
+function($, handlebars, couch,  _){
     var exports = {};
-
     var templates = {};
 
     function compileTemplate(domId, templateName) {
@@ -17,12 +15,13 @@ function($, handlebars, couch, JSONStream, _){
     }
 
     exports.init = function () {
+        console.log('init');
         compileTemplate('my-template', 'my.html');
     };
 
 
     exports.ui = function () {
-
+        console.log('fired up');
     };
 
     return exports;

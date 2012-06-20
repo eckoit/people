@@ -5,6 +5,8 @@
         "couchr": null,
         "domReady": null,
         "handlebars": null,
-        "underscore": null
+        "underscore": null,
+        "JSONStream": null,
+        "director": null
     }
 }
