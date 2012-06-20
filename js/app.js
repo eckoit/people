@@ -15,13 +15,12 @@ function($, handlebars, couch,  _){
     }
 
     exports.init = function () {
-        console.log('init');
         compileTemplate('my-template', 'my.html');
     };
 
 
     exports.ui = function () {
-        console.log('fired up');
+		$('.message').text('Welcome');
     };
 
     return exports;

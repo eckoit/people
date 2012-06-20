@@ -11,24 +11,9 @@
 
     <div class="container" role="main">
         <div class="row">
-            <div class="span1">
-
-            </div>
-            <div class="span10">
-                <form class="well form-search">
-                        <input type="text" class="span8 search-query">
-                        <button type="submit" class="btn primary">Search</button>
-                </form>
-            </div>
-        </div>
-        <div class="row">
-            <div class="offset1 word-count">
-
-            </div>
-        </div>
-        <div class="row">
-            <div class="results">
-
+            <div class="span5">
+				<h2>People</h2>
+				<span class="message"></span>
             </div>
         </div>
     </div>
@@ -36,8 +21,11 @@
     <script type="text/javascript">
         require(['js/app', 'domReady', 'director', 'jquery'], function (app, domReady, director, $) {
             window.$ = $;
+
+			$('.message').text('a');
             app.init();
 
+			$('.message).text('good morning');
             domReady(function () {
                app.ui();
             });
