@@ -13,6 +13,6 @@
         "md5": null,
         "pouchdb": null,
         "EpicEditor": null,
-        "sjcl": "linked"
+        "sjcl": null
     }
 }

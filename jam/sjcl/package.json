@@ -1,0 +1,20 @@
+{
+  "name": "sjcl",
+  "main" : "core.js",
+  "description": "Stanford Javascript Crypto Library",
+  "version": "0.0.1",
+  "categories": ["utils", "crypto"],
+  "homepage": "http://bitwiseshiftleft.github.com/sjcl/",
+  "maintainers":[
+          {
+              "name":"Ryan Ramage",
+              "web":"https://github.com/ryanramage"
+          }
+      ],
+  "repositories":[
+          {
+              "type":"git",
+              "url":"https://github.com/bitwiseshiftleft/sjcl"
+          }
+      ]
+}

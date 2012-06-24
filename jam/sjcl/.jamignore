@@ -1,0 +1,13 @@
+.idea
+.DS_Store
+browserTest
+compress
+core
+demo
+jsdoc_toolkit*
+lint
+test
+config*
+core_closure.js
+Makefile
+sjcl.js

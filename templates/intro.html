@@ -1,14 +1,34 @@
 <div class="container">
 	<header class="jumbotron masthead">
 		<div class="inner">
-			<h1>OpenDoor Stories</h1>
-			<p>Simple outdoor games. Read a chapter, find a code, unlock the next chapter.</p>
+			<h1>Open Door Stories</h1>
+			<p>Read a chapter, find a code, unlock the next chapter. </p>
+            <p>Go outside, open doors.</p>
 		</div>
 	</header>
 	<ul class="nav nav-tabs">
-    <li class="active">
-    		<a href="#">Find A Story</a>
-    </li>
-    <li><a href="#">Write A Story</a></li>
-   </ul> 	
+        <li class="active">
+                <a href="#map" data-toggle="tab">Find A Story</a>
+        </li>
+        <li><a href="#write" data-toggle="tab">Write A Story</a></li>
+   </ul>
+    <div id="myTabContent" class="tab-content">
+        <div class="tab-pane fade in active" id="map">
+          <p>Here is a cool map!</p>
+        </div>
+
+        <div class="tab-pane fade" id="write">
+            <div class="row">
+                <div class="offset2 span5">
+
+                      <form class="form">
+                          <label>Story Title</label>
+                          <input type="text" placeholder="Enter Story Name"/>
+                      </form>
+                    </div>
+                </div>
+        </div>
+
+    </div>
+
 </div>
