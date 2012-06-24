@@ -2070,11 +2070,6 @@ var jam = {
             "main": "whenever.js"
         },
         {
-            "name": "couchr",
-            "location": "jam/couchr",
-            "main": "couchr.js"
-        },
-        {
             "name": "domReady",
             "location": "jam/domReady",
             "main": "domReady.js"
@@ -2090,14 +2085,43 @@ var jam = {
             "main": "underscore.js"
         },
         {
-            "name": "JSONStream",
-            "location": "jam/JSONStream",
-            "main": "index.js"
-        },
-        {
             "name": "director",
             "location": "jam/director",
             "main": "director.js"
+        },
+        {
+            "name": "async",
+            "location": "jam/async",
+            "main": "./lib/async"
+        },
+        {
+            "name": "text",
+            "location": "jam/text",
+            "main": "text.js"
+        },
+        {
+            "name": "bootstrap",
+            "location": "jam/bootstrap"
+        },
+        {
+            "name": "marked",
+            "location": "jam/marked",
+            "main": "./lib/marked.js"
+        },
+        {
+            "name": "md5",
+            "location": "jam/md5",
+            "main": "md5.js"
+        },
+        {
+            "name": "pouchdb",
+            "location": "jam/pouchdb",
+            "main": "pouch.amd.alpha.js"
+        },
+        {
+            "name": "EpicEditor",
+            "location": "jam/EpicEditor",
+            "main": "./src/editor.js"
         },
         {
             "name": "jquery",
@@ -2105,14 +2129,9 @@ var jam = {
             "main": "jquery.js"
         },
         {
-            "name": "stream",
-            "location": "jam/stream",
-            "main": "stream.js"
-        },
-        {
-            "name": "events",
-            "location": "jam/events",
-            "main": "events.js"
+            "name": "simple-uuid",
+            "location": "jam/simple-uuid",
+            "main": "uuid.js"
         }
     ],
     "version": "0.1.0"

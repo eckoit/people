@@ -2,11 +2,16 @@
     "jam_version": "0.1.0",
     "dependencies": {
         "whenever": null,
-        "couchr": null,
         "domReady": null,
         "handlebars": null,
         "underscore": null,
-        "JSONStream": null,
-        "director": null
+        "director": null,
+        "async": null,
+        "text": null,
+        "bootstrap": null,
+        "marked": null,
+        "md5": null,
+        "pouchdb": null,
+        "EpicEditor": null
     }
 }

@@ -1,3 +1,14 @@
 {
-
+    "name" : "people",
+    "version" : "0.0.1",
+    "description" : "All your people belong to you!",
+    "attachments": ["jam", "js", "templates", "index.html"],
+    "modules": "couch",
+    "load": "couch/ddoc",
+    "dependencies": {
+        "modules": null,
+        "attachments": null,
+        "properties": null,
+        "underscore": null
+    }
 }
