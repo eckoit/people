@@ -3,11 +3,12 @@ define('js/app',[
     'underscore',
     'pouchdb',
     'handlebars',    
-	  'director',
-	  'EpicEditor',
+	'director',
+	'EpicEditor',
+    'sjcl',
     'text!templates/intro.html'
 ],
-function( $,  _, Pouch, handlebars, director, EpicEditor, intro_html){
+function( $,  _, Pouch, handlebars, director, EpicEditor, sjcl, intro_html){
     var exports = {};
     var templates = {};
     var router;
@@ -21,6 +22,8 @@ function( $,  _, Pouch, handlebars, director, EpicEditor, intro_html){
     function intro() {
         $('.content').html(templates['intro.html']({}));
         //var editor = new EpicEditor().load();
+        var results = sjcl.encrypt("password", "data");
+        console.log(results);
     }
 
 	
@@ -29,7 +32,7 @@ function( $,  _, Pouch, handlebars, director, EpicEditor, intro_html){
         router = director.Router({
           '/intro' : intro,
           '/edit/:id' : intro,
-				'/edit/:id/publish' : intro,
+	      '/edit/:id/publish' : intro,
           '/edit/:id/trailhead' : intro,
           '/edit/:id/chapter/:chapter' : intro,
           '/play/:id' : intro,

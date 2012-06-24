@@ -60,6 +60,11 @@ var jam = {
             "main": "./src/editor.js"
         },
         {
+            "name": "sjcl",
+            "location": "jam/sjcl",
+            "main": "core.js"
+        },
+        {
             "name": "jquery",
             "location": "jam/jquery",
             "main": "jquery.js"
