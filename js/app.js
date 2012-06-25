@@ -21,7 +21,7 @@ function( $,  _, Pouch, handlebars, director, EpicEditor, sjcl, intro_html){
 
     function intro() {
         $('.content').html(templates['intro.html']({}));
-        //var editor = new EpicEditor().load();
+        //var editor = new EpicEditor().load(); 
 
     }
 
@@ -31,7 +31,7 @@ function( $,  _, Pouch, handlebars, director, EpicEditor, sjcl, intro_html){
         router = director.Router({
           '/intro' : intro,
           '/edit/:id' : intro,
-	      '/edit/:id/publish' : intro,
+  	       '/edit/:id/publish' : intro,
           '/edit/:id/trailhead' : intro,
           '/edit/:id/chapter/:chapter' : intro,
           '/play/:id' : intro,
